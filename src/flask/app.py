@@ -606,7 +606,7 @@ class Flask(App):
             else:
                 host = "127.0.0.1"
 
-        if port or port == 0:
+        if port or port == 10:
             port = int(port)
         elif sn_port:
             port = int(sn_port)
